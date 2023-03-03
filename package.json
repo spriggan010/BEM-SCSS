@@ -1,5 +1,5 @@
 {
-  "name": "benandsass",
+  "name": "bemandsass",
   "version": "1.0.0",
   "description": "BEM Exercise",
   "main": "index.js",
@@ -9,3 +9,4 @@
   "author": "J",
   "license": "ISC"
 }
+
