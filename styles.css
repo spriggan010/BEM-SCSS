@@ -1,0 +1,49 @@
+body{
+    display: flex;
+}
+
+.card-light{
+    background-color: #eee;
+    margin: 2em;
+    max-width: 300px;
+    padding: 2em;
+    box-shadow: 0 20px 30px -20px black;
+}
+
+img{
+    width: 100%;
+}
+
+.card-dark{
+    background-color: #3a3a3a;
+    margin: 2em;
+    max-width: 300px;
+    padding: 2em;
+    color: white;
+    box-shadow: 0 20px 30px -20px black;
+}
+
+/* GLOBA OR SHARED STYLES */
+
+.card{
+    margin: 2em; 
+    max-width: 300px;
+    padding: 4em;
+    box-shadow: 0 10px 30px -10px black;
+}
+
+.card--light{
+    background-color: rgb(255, 237, 179);
+}
+.card--dark{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+/* SPACE COMBINATOR */
+
+/* .card{
+    opacity: .8;
+} */
+
+/* AVOID SPECIFITY WARS */
